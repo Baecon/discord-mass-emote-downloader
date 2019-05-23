@@ -27,7 +27,7 @@ async function firstTimeSetup() {
     },
     {
         name: 'token',
-        message: 'Whats you discord token? (needed to check when you\'re muted)\nRefer here to find your token: https://i.gangweed.net/QgsmCM\nRight click to paste\n\ntoken: '
+        message: 'Whats you discord token? (needed fetch emotes and guilds)\nRefer here to find your token: https://i.gangweed.net/QgsmCM\nRight click to paste\n\ntoken: '
     },
     ]
     await inquirer.prompt(prompts).then(answers =>{
