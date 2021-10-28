@@ -66,7 +66,7 @@ function startDiscord(token) {
         clear();
         //creates folder based off guild chosen
         result = answer.guild_name.split(":");
-        tempDir = result[0].replace("/", "");
+        tempDir = result[0].replace("/", "_");
         dir = tempDir.split(" ");
         console.log(`Creating folder "${dir[0]}" to store emotes in...`);
         makedir(`./emotes`);
