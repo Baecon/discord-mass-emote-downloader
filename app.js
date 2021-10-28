@@ -85,7 +85,7 @@ function startDiscord(token) {
                 console.log(err);
                 failed++;
               })
-              .pipe(fs.createWriteStream(`./${dir[0]}/${emoteName}`));
+              .pipe(fs.createWriteStream(`./emotes/${dir[0]}/${emoteName}`));
             succesful++;
           }
           console.log(
