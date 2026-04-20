@@ -29,7 +29,7 @@
     "chalk": "^2.4.2",
     "discord.js": "^11.6.4",
     "figlet": "^1.2.1",
-    "inquirer": "^6.2.2",
+    "inquirer": "^13.4.2",
     "request": "^2.88.0"
   }
 }
